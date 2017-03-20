@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">One Day of Happiness</string>
+
+    <string name="content_description">Image about a woman acting on the stage</string>
+
+    <!-- Header text for the first Card [CHAR LIMIT=20] -->
+    <string name="about_the_piece">About the Piece</string>
+
+    <!-- Story of the theatre piece [CHAR LIMIT=NONE] -->
+    <string name="story">Our piece \"One day of Happiness\" takes place at the beginning of the XX. century in a petit bourgeois family living in poverty. Fela, a not too beautiful and not too special, 24 year old girl is fell in love with the star of the era, with the author and general Adam Pacholski. She manages to meet him for a whole day but things don\'t happen as she has expected&#8230;</string>
+
+    <!-- Header text for the second Card [CHAR LIMIT=20] -->
+    <string name="more_information">More Information</string>
+
+    <!-- Contacts where user can find more information [CHAR LIMIT=20] -->
+    <string name="website" translatable="false">https://www.facebook.com/egyNapBoldogsag</string>
+    <string name="phone" translatable="false">+3630 444 6050</string>
+    <string name="email" translatable="false">clairekonya@gmail.com</string>
+
+    <!-- Text of the Buy Ticket Button [CHAR LIMIT=20 ]-->
+    <string name="buy_a_ticket">Buy a Ticket</string>
+
+    <!-- Link referring to the site where user can buy a ticket for the performance. Link points
+    to the site corresponding to language of the device [CHAR LIMIT=NONE]-->
+    <string name="buy_ticket_link">https://www.jegy.hu/?lang=en</string>
+</resources>

@@ -10,6 +10,7 @@
         <item name="android:textColorLink">@color/colorPrimaryText</item>
     </style>
 
+    <!--Collapsed Toolbar Layout Style-->
     <style name="collapsedToolbarStyle">
         <item name="android:textSize">20sp</item>
     </style>
