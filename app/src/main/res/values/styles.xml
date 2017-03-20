@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColorLink">@color/colorPrimaryText</item>
+    </style>
+
+    <style name="collapsedToolbarStyle">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- Standard CardView Style -->
+    <style name="CardViewStyle">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="android:layout_marginBottom">@dimen/cardview_margin_bottom</item>
+        <item name="cardBackgroundColor">@color/colorCardBackground</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Standard CardView Text Style-->
+    <style name="CardViewText">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!-- CardView Title Text Style-->
+    <style name="CardViewTitleText" parent="CardViewText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/cardview_title_text_margin_bottom</item>
+    </style>
+
+</resources>
