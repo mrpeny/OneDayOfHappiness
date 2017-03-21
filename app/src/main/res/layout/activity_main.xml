@@ -64,10 +64,10 @@
                 android:layout_height="wrap_content">
 
                 <LinearLayout
+                    style="@style/CardViewLinearLayoutStyle"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:padding="@dimen/linearlayout_padding">
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/CardViewTitleText"
@@ -93,10 +93,10 @@
                 android:layout_height="match_parent">
 
                 <LinearLayout
+                    style="@style/CardViewLinearLayoutStyle"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:padding="@dimen/linearlayout_padding">
+                    android:orientation="vertical">
 
                     <TextView
                         style="@style/CardViewTitleText"
