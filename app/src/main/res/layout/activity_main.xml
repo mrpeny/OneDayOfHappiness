@@ -21,7 +21,7 @@
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
             app:contentScrim="@color/colorPrimaryDark"
-            app:expandedTitleMarginStart="20dp"
+            app:expandedTitleMarginStart="@dimen/expanded_title_margin_start"
             app:expandedTitleTextAppearance="@style/collapsedToolbarStyle"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
@@ -48,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorAccent"
-        android:padding="16dp"
+        android:padding="@dimen/nested_scroll_view_padding"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <LinearLayout
@@ -71,15 +71,11 @@
 
                     <TextView
                         style="@style/CardViewTitleText"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
                         android:autoLink="web"
                         android:text="@string/about_the_piece" />
 
                     <TextView
                         style="@style/CardViewText"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
                         android:text="@string/story" />
 
                 </LinearLayout>
@@ -100,14 +96,10 @@
 
                     <TextView
                         style="@style/CardViewTitleText"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
                         android:text="@string/more_information" />
 
                     <TextView
                         style="@style/CardViewText"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
                         android:autoLink="web"
                         android:drawableLeft="@drawable/ic_website"
                         android:drawableStart="@drawable/ic_website"
@@ -115,8 +107,6 @@
 
                     <TextView
                         style="@style/CardViewText"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
                         android:autoLink="phone"
                         android:drawableLeft="@drawable/ic_phone"
                         android:drawableStart="@drawable/ic_phone"
@@ -124,8 +114,6 @@
 
                     <TextView
                         style="@style/CardViewText"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
                         android:autoLink="email"
                         android:drawableLeft="@drawable/ic_email"
                         android:drawableStart="@drawable/ic_email"

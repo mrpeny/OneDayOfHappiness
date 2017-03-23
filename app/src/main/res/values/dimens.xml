@@ -6,6 +6,12 @@
     <!-- Appbar layout heights and widths -->
     <dimen name="appbar_layout_height">240dp</dimen>
 
+    <!-- CollapsingToolbarLayout title text margin start-->
+    <dimen name="expanded_title_margin_start">20dp</dimen>
+
+    <!-- CollapsingToolbarLayout Title Text -->
+    <dimen name="nested_scroll_view_padding">16dp</dimen>
+
     <!-- CardView layout margins and paddings -->
     <dimen name="cardview_margin_bottom">16dp</dimen>
     <dimen name="cardview_title_text_margin_bottom">8dp</dimen>

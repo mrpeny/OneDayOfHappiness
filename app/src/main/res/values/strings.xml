@@ -7,7 +7,11 @@
     <string name="about_the_piece">About the Piece</string>
 
     <!-- Story of the theatre piece [CHAR LIMIT=NONE] -->
-    <string name="story">Our piece \"One day of Happiness\" takes place at the beginning of the XX. century in a petit bourgeois family living in poverty. Fela, a not too beautiful and not too special, 24 year old girl is in love with the star of the era, with the author and general Adam Pacholski. She manages to meet him for a whole day but things don\'t happen as she has expected&#8230;</string>
+    <string name="story">Our piece \"One day of Happiness\" takes place at the beginning of the XX.
+        century in a petit bourgeois family living in poverty. Fela, a not too beautiful and not
+        too special, 24 year old girl is in love with the star of the era, with the author and
+        general Adam Pacholski. She manages to meet him for a whole day but things don\'t happen as
+        she has expected&#8230;</string>
 
     <!-- Header text for the second Card [CHAR LIMIT=20] -->
     <string name="more_information">More Information</string>
