@@ -23,7 +23,8 @@
             app:contentScrim="@color/colorPrimaryDark"
             app:expandedTitleMarginStart="@dimen/expanded_title_margin_start"
             app:expandedTitleTextAppearance="@style/collapsedToolbarStyle"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:titleEnabled="true">
 
             <!-- Cover picture in Collapsing Toolbar -->
             <ImageView
@@ -38,7 +39,8 @@
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize" />
+                android:layout_height="?attr/actionBarSize"
+                android:title="@string/app_name" />
 
         </android.support.design.widget.CollapsingToolbarLayout>
 

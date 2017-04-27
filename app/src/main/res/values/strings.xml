@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">One Day of Happiness</string>
 
+    <!-- Description of the image -->
     <string name="content_description">Image about a woman acting on the stage</string>
 
     <!-- Header text for the first Card [CHAR LIMIT=20] -->
