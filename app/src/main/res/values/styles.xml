@@ -16,14 +16,21 @@
 
     <!-- Standard CardView Style -->
     <style name="CardViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="cardCornerRadius">16dp</item>
-        <item name="android:layout_marginBottom">@dimen/cardview_margin_bottom</item>
         <item name="cardBackgroundColor">@color/colorCardBackground</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:layout_marginLeft">@dimen/cardview_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/cardview_margin_left_right</item>
+        <item name="android:layout_marginBottom">@dimen/cardview_margin_top_bottom</item>
     </style>
 
     <!-- CardView LinearLayout Style-->
     <style name="CardViewLinearLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
         <item name="android:paddingTop">@dimen/linearlayout_padding_top_bottom</item>
         <item name="android:paddingBottom">@dimen/linearlayout_padding_top_bottom</item>
         <item name="android:paddingRight">@dimen/linearlayout_padding_right_left</item>
@@ -48,5 +55,15 @@
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:layout_marginBottom">@dimen/cardview_title_text_margin_bottom</item>
+    </style>
+
+    <!-- Buy ticket button style -->
+    <style name="buy_ticket_button_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/cardview_margin_top_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/cardview_margin_left_right</item>
+        <item name="android:layout_marginRight">@dimen/cardview_margin_left_right</item>
+        <item name="android:layout_gravity">center</item>
     </style>
 </resources>
